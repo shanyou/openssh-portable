@@ -22,7 +22,7 @@ RUN cd /opt/openssh \
 && make install
 
 RUN cp /opt/openssh/deploy/sshd-banner /etc/ssh/sshd-banner \
-&& cp /opt/openssh/deploy/sshd_config /etc/ssh/ssshd_config \
+&& cp /opt/openssh/deploy/sshd_config /etc/ssh/sshd_config \
 && cp /opt/openssh/deploy/ssh-start /usr/local/bin/ssh-start \
 && chmod +x /usr/local/bin/ssh-start
 
